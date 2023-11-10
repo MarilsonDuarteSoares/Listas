@@ -1,0 +1,15 @@
+Slidable(
+      endActionPane: ActionPane(
+        motion: DrawerMotion(),
+        extentRatio: 0.15,
+        children: [
+          SlidableAction(
+            onPressed: ((CONTEXT) {
+              // Deletar
+            }),
+            backgroundColor: Colors.red,
+            foregroundColor: Colors.white,
+            icon: Icons.delete,
+            label: 'Delete',
+
+          ),
